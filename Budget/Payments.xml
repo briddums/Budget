@@ -1,0 +1,78 @@
+<!--Note: Date formats are in M/D/Y -->
+<Data>
+	<Payment Name="Strata" Recurrence="monthly">
+		<!-- Note that while the budget increase occurs Oct 1st, we usually aren't charged the 1st 3 months -->
+		<Amount Amount="297.88" Date="10/1/2014"/>
+		<Amount Amount="315.69" Date="10/1/2015"/>
+		<Amount Amount="325.20" Date="10/1/2016"/>
+		<Amount Amount="344.38" Date="10/1/2017"/>
+	</Payment>
+	<Payment Name="Strata Parking" Recurrence="monthly">
+		<!-- First month is doubled up as back pay for February -->
+		<Amount Amount="60.00" Date="3/1/2019"/>
+		<Amount Amount="30.00" Date="4/1/2019"/>
+	</Payment>
+	<Payment Name="Mortgage" Recurrence="weekly">
+		<Amount Amount="280.00" Date="01/07/2015"/>
+		<Amount Amount="251.51" Date="11/26/2015"/>
+		<Amount Amount="255.88" Date="08/10/2017"/>
+		<Amount Amount="260.25" Date="09/07/2017"/>
+		<Amount Amount="264.55" Date="02/08/2018"/>
+		<Amount Amount="268.75" Date="08/09/2018"/>
+		<Amount Amount="272.92" Date="11/08/2018"/>
+		<!-- Switched to a fixed mortgage -->
+		<Amount Amount="271.95" Date="05/02/2019"/>
+		<!-- Switched to accellerated weekly (which it should've been in the 1st place :\ ) -->
+		<Amount Amount="294.61" Date="06/11/2019"/>
+	</Payment>
+	<Payment Name="Property Taxes &amp; Utilities" Recurrence="monthly" Skip="Jun,Jul">
+		<Amount Amount="110" Date="8/1/2014"/>
+		<Amount Amount="120" Date="8/1/2015"/>
+		<Amount Amount="100" Date="8/1/2017"/>
+		<Amount Amount="130" Date="8/1/2018"/>
+		<Amount Amount="170" Date="8/1/2019"/>
+	</Payment>
+	<Payment Name="Hydro" Recurrence="monthly">
+		<Amount Amount="85" Date="8/11/2015"/>
+		<Amount Amount="97" Date="7/12/2017"/>
+		<Amount Amount="96" Date="7/14/2018"/>
+		<Amount Amount="88" Date="1/15/2019"/>
+		<Amount Amount="84" Date="7/15/2019"/>
+		<Amount Amount="90" Date="12/15/2019"/>
+		<Amount Amount="106" Date="07/15/2020"/>
+		<Amount Amount="116" Date="12/11/2020"/>
+	</Payment>
+	<Payment Name="Shaw Cable" Recurrence="monthly">
+		<Amount Amount="100" Date="8/24/2015"/>
+		<Amount Amount="115" Date="8/24/2017"/>
+		<Amount Amount="135" Date="7/24/2020"/>
+	</Payment>
+	<Payment Name="House Insurance" Recurrence="monthly" Skip="Nov">
+		<Amount Amount="52.03" Date="12/25/2015"/>
+		<Amount Amount="44.34" Date="12/25/2016"/>
+		<Amount Amount="50.29" Date="12/25/2017"/>
+		<Amount Amount="56.51" Date="12/25/2018"/>
+		<Amount Amount="63.61" Date="11/25/2019"/>
+		<Amount Amount="67.14" Date="11/25/2020"/>
+	</Payment>
+	<Payment Name="Car Insurance" Recurrence="monthly">
+		<Amount Amount="167.51" Date="08/21/2015"/>
+		<Amount Amount="154.69" Date="12/21/2015"/>
+		<Amount Amount="156.31" Date="12/21/2016"/>
+		<Amount Amount="169.81" Date="12/21/2017"/>
+		<!-- Weird date for first payment because I renewed my insurance a few weeks late -->
+		<Amount Amount="178.23" Date="12/07/2018"/>
+		<Amount Amount="178.23" Date="01/21/2019"/>
+		<!-- Weird date for first payment because I renewed my insurance a few weeks late -->
+		<Amount Amount="179.00" Date="12/06/2019"/>
+		<Amount Amount="178.96" Date="01/21/2020"/>
+		<!-- Big jump in insurance because of accident last November
+		     Changed payment date so I didn't have weird dual dates each year -->
+		<Amount Amount="232.34" Date="12/04/2020"/>
+	</Payment>
+	<Payment Name="Car Payment" Recurrence="biweekly">
+		<Amount Amount="101.33" Date="09/25/2015"/>
+		<!-- Finished paying off my car! Huzzah! -->
+		<Amount Amount="0" Date="04/01/2019"/>
+	</Payment>
+</Data>
