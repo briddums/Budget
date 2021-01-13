@@ -23,7 +23,7 @@
 		<!-- Switched to a fixed mortgage -->
 		<Amount Amount="271.95" Date="05/02/2019"/>
 		<!-- Switched to accellerated weekly (which it should've been in the 1st place :\ ) -->
-		<Amount Amount="294.61" Date="06/11/2019"/>
+		<Amount Amount="294.61" Date="06/13/2019"/>
 	</Payment>
 	<Payment Name="Property Taxes &amp; Utilities" Recurrence="monthly" Skip="Jun,Jul">
 		<Amount Amount="110" Date="8/1/2014"/>
